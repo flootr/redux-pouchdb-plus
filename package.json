@@ -50,8 +50,8 @@
   "dependencies": {
     "lodash.clonedeep": "^4.1.0",
     "lodash.isequal": "^4.0.0",
-    "node-uuid": "^1.4.7",
-    "transit-immutable-js": "^0.5.2",
-    "transit-js": "^0.8.846"
+    "transit-immutable-js": "^0.5.4",
+    "transit-js": "^0.8.846",
+    "uuid": "^2.0.3"
   }
 }
