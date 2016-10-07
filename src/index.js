@@ -10,7 +10,7 @@ export { inSync } from './save.js';
 // A client hash to filter out local database changes (as those
 // may lead to several race conditions).
 // see also http://stackoverflow.com/questions/28280276/changes-filter-only-changes-from-other-db-instances
-const CLIENT_HASH = uuid.v1();
+const CLIENT_HASH = uuid.v4();
 
 const REINIT = '@@redux-pouchdb-plus/REINIT';
 const INIT = '@@redux-pouchdb-plus/INIT';
